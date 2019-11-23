@@ -13,12 +13,12 @@
 	displayGamemastersWithOnlineCommand = false
 
 	-- MySql
-	sqlType = "sqlite"
+	sqlType = "mysql"
 	sqlHost = "127.0.0.1"
 	sqlPort = 3306
 	sqlUser = "root"
-	sqlPass = ""
-	sqlDatabase = ""
+	sqlPass = "password123!"
+	sqlDatabase = "tfs"
 	sqlFile = "schemas/otxserver.s3db"
 	sqlKeepAlive = 0
 	mysqlReadTimeout = 10
@@ -28,7 +28,7 @@
 
 	-- World / Ip / Port
 	worldId = 0
-	ip = "127.0.0.1"
+	ip = "54.37.136.98"
 	worldType = "open"
 	bindOnlyGlobalAddress = false
 	loginPort = 7171
@@ -37,7 +37,7 @@
 	loginOnlyWithLoginServer = false
 
 	-- Account manager
-	accountManager = true
+	accountManager = false
 	namelockManager = true
 	newPlayerChooseVoc = false
 	newPlayerSpawnPosX = 32097
@@ -237,7 +237,7 @@
 	houseDataStorage = "binary-tilebased"
 	storeTrash = true
 	cleanProtectedZones = true
-	mapName = "World.otbm"
+	mapName = "world.otbm"
 
 	-- Mailbox
 	mailMaxAttempts = 5
@@ -298,7 +298,7 @@
 	tileLimit = 7
 
 	-- Premium-related
-	freePremium = false
+	freePremium = true
 	premiumForPromotion = true
 	updatePremiumStateAtStartup = true
 
@@ -360,7 +360,7 @@
 	globalSaveEnabled = false
 	globalSaveHour = 8
 	globalSaveMinute = 0
-	shutdownAtGlobalSave = true
+	shutdownAtGlobalSave = false
 	cleanMapAtGlobalSave = false
 
 	-- Spawns
